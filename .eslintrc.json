@@ -1,0 +1,43 @@
+{
+    "extends": "airbnb",
+    "installedESLint": true,
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "ecmaVersion": 7,
+    "plugins": [
+        "react"
+    ],
+    "settings": {
+        "import/resolver": "meteor",
+        "import/core-modules": [
+            "meteor/meteor",
+            "meteor/mongo",
+            "meteor/react-meteor-data",
+            "meteor/templating",
+            "meteor/accounts-base",
+            "meteor/blaze",
+            "meteor/check",
+            "meteor/nodets_mysql"
+        ],
+        "import/no-extraneous-dependencies": "off"
+    },
+    "env": {
+        "jquery": true,
+        "browser": true
+    },
+    "rules": {
+        "no-underscore-dangle": [
+            2,
+            {
+                "allow": [
+                    "_id"
+                ]
+            }
+        ]
+    }
+}
