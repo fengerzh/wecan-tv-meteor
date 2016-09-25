@@ -1,0 +1,21 @@
+{
+  "name": "wecan-tv",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "classnames": "^2.2.5",
+    "meteor-mysql": "^2.8.9",
+    "meteor-node-stubs": "^0.2.3",
+    "react": "^15.3.2",
+    "react-addons-pure-render-mixin": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.6.0",
+    "eslint-import-resolver-meteor": "^0.3.3",
+    "eslint-plugin-import": "^1.16.0"
+  }
+}
